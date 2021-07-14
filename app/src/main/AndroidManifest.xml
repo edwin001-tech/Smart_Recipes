@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smartrecipe">
+    package="com.tdbsoftrecipesappv1.smartrecipe">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.android.vending.BILLING" />
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartRecipe">
         <activity
-            android:name=".MainActivity"
+            android:name="com.tdbsoftrecipesappv1.smartrecipe.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.SmartRecipe.NoActionBar">
             <intent-filter>
@@ -24,12 +24,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.smartrecipe.ui.subscription.SubscriptionActivity"
+            android:name="com.tdbsoftrecipesappv1.smartrecipe.ui.subscription.SubscriptionActivity"
             android:label="@string/subscription"
             android:theme="@style/Theme.SmartRecipe"/>
-        <activity android:name=".RecipeListActivity"
+        <activity android:name="com.tdbsoftrecipesappv1.smartrecipe.RecipeListActivity"
             android:theme="@style/Theme.SmartRecipe.NoActionBar"/>
-        <activity android:name=".RecipeActivity"
+        <activity android:name="com.tdbsoftrecipesappv1.smartrecipe.RecipeActivity"
             android:theme="@style/Theme.SmartRecipe.NoActionBar"/>
         <meta-data
             android:name="preloaded_fonts"
