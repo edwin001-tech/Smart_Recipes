@@ -4,7 +4,7 @@
 * This code implements google multiple consumable in app subscriptions
 * using google billing client library
  */
-package com.example.smartrecipe.ui.subscription;
+package com.example.smartrecipe.ui.subscription
 
 
 //imports
@@ -275,7 +275,7 @@ class SubscriptionActivity : AppCompatActivity(), PurchasesUpdatedListener {
             // To get key go to Developer Console > Select your app > Development Tools > Services & APIs.
             //for new play console
             //To get key go to Developer Console > Select your app > Monetize > Monetization setup
-            val base64Key = "Paste the key from monetize setup here. Unique for every app"
+            val base64Key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1zxbIy0VItrH86Cirav2lTfrh8lJh/EpDz4pdRYB6fe1iujC+cfXVgVjAZdlqda/IdWEzFNty9Y4NStYEmH7W5QoSGsnLOIqfyNTE9hD+ZGbZSyibJh+hpFbITJbEWE+nT3Ud1Syb/eQ/1qYi2lscPM79PFZX5S7CQAiSpbRhoTcu+mAHTXvtkVrXPs/HbYYS/t3d6xJDV2Qjtr7qImDnm6K4VAH1g/uf22joVgRJbqyb+/+6J/eCu7Xx3phRM87IEFBRRuZ103PkpDFAHMmF2knZcPmdyIX4LPNO/tZjl1mY9NBx9eahTfBUQY88+O5Fbi6kcJYBt3QJSuxKGdiOQIDAQAB"
             Security.verifyPurchase(
                 base64Key,
                 signedData,
@@ -305,9 +305,9 @@ class SubscriptionActivity : AppCompatActivity(), PurchasesUpdatedListener {
                 * and create product ids with the same ids as the ones created below
                 *
                  */
-                add("standard")
-                add("professional")
-                add("advanced")
+                add("sub01")
+                add("sub02")
+                add("sub03")
             }
         }
         private val subscribeItemDisplay = ArrayList<String>()
