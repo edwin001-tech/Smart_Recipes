@@ -10,7 +10,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.tdbsoftrecipesappv1.smartrecipe.ui.subscription.SubscriptionActivity
+import com.example.smartrecipe.ui.subscription.SubscriptionActivity
 import com.google.android.material.navigation.NavigationView
 import com.tdbsoftrecipesappv1.smartrecipe.databinding.ActivityMainBinding
 
@@ -54,7 +54,7 @@ open class MainActivity : AppCompatActivity() {
     }
 
     private fun notifyList(): Boolean {
-        var subscribed = false;
+        var subscribed = false
         for (p in SubscriptionActivity.subcribeItemIDs) {
             if (getSubscribeItemValueFromPref(p)) {
                 subscribed = getSubscribeItemValueFromPref(p)
@@ -72,7 +72,7 @@ open class MainActivity : AppCompatActivity() {
 
     private fun hideCategories (visibility : Boolean){
         val navigationView : NavigationView = findViewById(R.id.nav_view)
-        var navMenu :  Menu = navigationView.menu
+        val navMenu :  Menu = navigationView.menu
         navMenu.findItem(R.id.nav_categories).isVisible = visibility
     }
 
