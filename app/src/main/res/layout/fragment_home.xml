@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
 
-        <variable name="viewModel" type="com.example.smartrecipe.ui.home.HomeViewModel"/>
+        <variable name="viewModel" type="com.tdbsoftrecipesappv1.smartrecipe.ui.home.HomeViewModel"/>
     </data>
 
 
