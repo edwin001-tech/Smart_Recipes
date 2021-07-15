@@ -3,8 +3,7 @@
 * @author offensive #TDBSoft
 * This code implements google multiple consumable in app subscriptions
 * using google billing client library
- */
-package com.example.smartrecipe.ui.subscription;
+ */package com.tdbsoftrecipesappv1.smartrecipe.ui.subscription;
 
 
 //imports
@@ -17,7 +16,9 @@ import android.widget.AdapterView.OnItemClickListener
 import androidx.appcompat.app.AppCompatActivity
 import com.android.billingclient.api.*
 import com.android.billingclient.api.BillingClient.SkuType
-import com.example.smartrecipe.R
+import com.tdbsoftrecipesappv1.smartrecipe.R
+import com.tdbsoftrecipesappv1.smartrecipe.ui.subscription.Security
+
 import java.io.IOException
 import java.util.*
 

@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+//import com.example.smartrecipe.ui.subscription.SubscriptionActivity
 import com.tdbsoftrecipesappv1.smartrecipe.ui.subscription.SubscriptionActivity
 
 class HomeViewModel(application: Application) : AndroidViewModel(application) {
